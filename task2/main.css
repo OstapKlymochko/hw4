@@ -1,0 +1,89 @@
+body{
+    box-sizing: border-box;
+    padding:20px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.A{
+    width: 100%;
+    height: 30%;
+    background: silver;
+    border-radius: 20px;
+    text-align: center;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.B-E{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.B{
+    background: silver;
+    height: 50%;
+    border-radius: 20px;
+    text-align: center;
+}
+.C-E{
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.elem{
+    background: silver;
+    width: 30%;
+    height: 85%;
+    border-radius: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.F{
+    height: auto;
+    width: 30%;
+    background: silver;
+    border-radius: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+@media screen and (min-width: 0) and (max-width: 1000px) {
+    .A{
+        height: 10vh;
+        width: 100%;
+    }
+    .bottom{
+        margin-top: 150px;
+        flex-direction: column;
+    }
+    .B-E{
+        height: 40vh;
+        width: 100%;
+    }
+    .B{
+        height: 50%;
+    }
+    .C-E{
+        height: 50%;
+    }
+    .elem{
+        margin-top: 50px;
+        height: 50%;
+    }
+    .F{
+        height: 10vh;
+        width: 100%;
+        margin-left: 0;
+    }
+}
