@@ -1,0 +1,323 @@
+.container{
+    width: 100% ;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.first{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 5px;
+}
+.first_elem{
+    background: silver;
+    width: 150px;
+    height: 50px;
+}
+
+.second{
+    width: 20%;
+    height: 96vh;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.second_elem{
+    width: 120px;
+    height: 25px;
+    background: silver;
+    margin: 5px;
+}
+.three-seven{
+    width: 100%;
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.three{
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.three_elem{
+    width: 100%;
+    height: 15vh;
+    background: silver;
+}
+.four{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+.four_elem{
+    background: silver;
+    height: 100px;
+    width: 150px;
+    margin: 5px;
+}
+.five-six{
+    box-sizing: border-box;
+    display: flex;
+}
+.five{
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 80%;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+.five_elem{
+    background: silver;
+    height: 70px;
+    width: 40%;
+}
+.six{
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 20%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.extra{
+    display: none;
+}
+.big_div{
+  display: none;
+}
+.six_elem{
+    width: 80%;
+    height: 60px;
+    background: silver;
+    margin-top: 15px;
+}
+.seven{
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 100%;
+    height: 111px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+.long{
+    width: 100%;
+    height: 2vh;
+    background: silver;
+    margin-top: 5px;
+}
+.short{
+    width: 40%;
+    height: 2vh;
+    background: silver;
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px)
+{
+    .container{
+        background: coral;
+    }
+    .empty{
+        display: none;
+    }
+    .first{
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border: 1px solid black;
+    }
+    .first_elem{
+        background: silver;
+        width: 20%;
+        height: 20px;
+    }
+    .second{
+        height: 30vh;
+        border: 5px dotted black;
+        border-right:none;
+    }
+    .second_elem{
+        width: 80%;
+    }
+    .extra_second_elem{
+        background: silver;
+        width: 80%;
+        height: 25px;
+        margin-top: 10px;
+        margin-bottom: 60px;
+    }
+    .three_elem{
+        height: 10vh;
+    }
+    .four{
+        flex-wrap: wrap;
+    }
+    .four_elem{
+        height: 100px;
+        width: 40%;
+        margin: 10px;
+    }
+    .five-six{
+        flex-direction: column;
+    }
+    .five{
+        height: 230px;
+        width: 100%;
+    }
+    .five_elem{
+        width: 35%;
+        height: 60px;
+    }
+    .six{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 20px 0 20px;
+    }
+    .six_elem{
+        height: 40px;
+    }
+    .extra{
+        display: flex;
+        width: 30%;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .big_div{
+        display: block;
+        width: 150px;
+        height: 150px;
+        background: silver;
+    }
+    .seven{
+        padding: 5px;
+    }
+    .long{
+        height: 2vh;
+    }
+    .short{
+        height: 2vh;
+    }
+}
+@media screen and (min-width: 0) and (max-width: 500px){
+    .container{
+        background: coral;
+    }
+    .empty{
+        display: none;
+    }
+    .first{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 5px;
+        border: 1px solid black;
+    }
+    .first_elem{
+        background: silver;
+        width: 30%;
+        height: 20px;
+    }
+    .w{
+        width: 80%;
+        margin-top: 5px;
+    }
+    .second{
+        height: 20vh;
+        border: 5px dotted black;
+        border-right:none;
+    }
+    .extra_second_elem{
+        background: silver;
+        width: 80%;
+        height: 25px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .second_elem{
+        width: 80%;
+    }
+    .three_elem{
+        height: 8vh;
+    }
+    .four{
+        box-sizing: border-box;
+        flex-wrap: wrap;
+    }
+    .four_elem{
+        height: 80px;
+        width: 30%;
+        margin: 10px;
+    }
+    .five-six{
+        flex-direction: column;
+    }
+    .five{
+        height: 230px;
+        width: 100%;
+    }
+    .five_elem{
+        width: 80%;
+        height: 25px;
+    }
+    .six{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .six_elem{
+        width: 80%;
+        height: 20px;
+    }
+    .extra{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .big_div{
+        display: block;
+        width: 150px;
+        height: 90px;
+        margin-bottom: 10px;
+        background: silver;
+    }
+    .seven{
+        padding: 5px;
+    }
+    .long{
+        height: 2vh;
+    }
+    .short{
+        height: 2vh;
+    }
+}
